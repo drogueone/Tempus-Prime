@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script> <!--Import Feather Icons-->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!--Connect Google APIs-->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!--Prepare Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&family=Roboto+Mono:wght@300;400;700&display=swap" rel="stylesheet"> <!--Import google fonts Oswald & Roboto mono-->
+  <title>Introdução ao Grid System</title>
+</head>
+<body>
+  <header>
+    <h1>Tempus <strong>Prime</strong> </h1>
+    <div class="control">
+      <a href="#" class="control_item hover transition link">
+        <i data-feather="bell"></i>
+      </a>
+      <a href="#" class="control_item hover transition link">
+        <i data-feather="settings"></i>
+      </a>
+      <a href="#" class="control_user hover transition link">
+        <i data-feather="user" style="width: 36px; height: 36px; stroke-width: 1.5;"></i>
+        <span>Darlan Paz</span>
+      </a>
+    </div>
+  </header>
+  <aside>
+    <ul>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="home"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="book"></i>
+          <span>Books</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="codepen"></i>
+          <span>Code</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="credit-card"></i>
+          <span>Payments</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="folder"></i>
+          <span>Documents</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="hard-drive"></i>
+          <span>Archive</span>
+        </a>
+      </li>
+      <li>
+        <a href="#" class="hover transition">
+          <i data-feather="lock"></i>
+          <span>Security</span>
+        </a>
+      </li>
+    </ul>
+    <a href="#" class="aside_info">
+      <i data-feather="info"></i>
+      <span>Tempus Prime Info & copyright</span>
+    </a>
+  </aside>
+  <main>
+    <h2>Welcome</h2>
+    <p>This is the <strong>Tempus Prime</strong> aplication.<br>
+    Any doubt please contact our <a href="#">support</a> channel, we will be happy to help you.</p>
+    <a href="#">version 1.2.5 notes</a>
+    <div class="quick_actions">
+      <h3>Quick actions</h3>
+      <div class="card_container">
+        <div class="card">
+          <div class="card_tag">
+            <i data-feather="lock"></i>
+            <span>Security</span>
+          </div>
+          <a href="#">
+            <i data-feather="plus"></i>
+            <span>Create a new user</span>
+          </a>
+          <p>manage the users who will access the different modules of your application.</p>
+        </div>
+        <div class="card">
+          <div class="card_tag">
+            <i data-feather="codepen"></i>
+            <span>Code</span>
+          </div>
+          <a href="#">
+            <i data-feather="plus"></i>
+            <span>Create a new Issue</span>
+          </a>
+          <p>manage your code: Create issues and keep your code up to date.</p>
+        </div>
+        <div class="card">
+          <div class="card_tag">
+            <i data-feather="hard-drive"></i>
+            <span>Archive</span>
+          </div>
+          <a href="#">
+            <i data-feather="upload"></i>
+            <span>Upload your files</span>
+          </a>
+          <p>Always keep your files at hand, keeping your copies up to date.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <span>Quick access:</span>
+    <ul>
+      <li>
+        <a href="#">Support channel</a>
+      </li>
+      <li>
+        <a href="#">Security policy</a>
+      </li>
+      <li>
+        <a href="#">LGPD</a>
+      </li>
+      <li>
+        <a href="#">Feedback & suggestions</a>
+      </li>
+    </ul>
+  </footer>
+
+  <!--Call Feather Icons-->
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
